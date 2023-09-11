@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/LOGO.png">
+    <title>Shoply</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sao-torpes" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/syne?styles=24853" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container pe-0 ps-0 ">
+                <a class="navbar-brand  text-uppercase brand" href="#">Shoply</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- normal görünüm -->
+                <div class="collapse navbar-collapse navbar-font bg-orange-0 mt-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-3 p-md-0">
+                        <li class="nav-item mx-2 d-sm-none d-block m-1 m-md-0">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2 m-1 m-md-0">
+                            <a class="nav-link active" aria-current="page" href="#">Product</a>
+                        </li>
+                        <li class="nav-item mx-2 m-1 m-md-0">
+                            <a class="nav-link text-black" href="#">Sale</a>
+                        </li>
+                        <li
+                            class="nav-item d-flex justify-content-sm-start justify-content-md-center align-items-center  mx-2 m-1 m-md-0">
+                            <a class="nav-link text-black" href="#">Cart</a>
+                            <a href="#"
+                                class="nav-link rounded-circle btn btn-orange mx-2 px-3 text-white fw-semibold d-none d-md-block">0</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex p-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a href="#" class="btn btn-orange text-white">Search</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <div class="container">
+                <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/index.html"
+                                    class="text-orange text-decoration-none">Home</a>
+                            </li>
+                            <li class="breadcrumb-item "><a href="#" class="text-decoration-none text-dark">Product</a>
+                            </li>
+                        </ol>
+                    </nav>
+                    <div class="col-md-12 d-md-flex">
+                        <div class="col-md-3">
+                            <div class="card border-0 shadow">
+                                <div class="card-body">
+
+                                    <div class="col-md-12 bg-orange p-2 pb-0 rounded-2 ">
+                                        <button class="col-md-12 col-12 d-flex navbar-toggler pt-2" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#filtermenu"
+                                            aria-controls="filtermenu" aria-expanded="false"
+                                            aria-label="Toggle navigation">
+                                            <div class="col-6 col-md-6 d-flex">
+                                                <p class="fw-bold">Category
+                                                </p>
+                                            </div>
+                                            <div class="col-6 col-md-6 d-flex justify-content-end">
+                                                <p><i class="fa fa-chevron-down align-items-end"></i></p>
+                                            </div>
+
+
+                                        </button>
+
+                                    </div>
+
+                                    <div class="navbar-collapse collapse" id="filtermenu">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <!-- WomenDropdown -->
+                                                <div class="col-md-12 p-3">
+                                                    <button class="col-md-12 col-12 d-flex navbar-toggler pt-2"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#filtermenuWomen"
+                                                        aria-controls="filtermenuWomen" aria-expanded="false"
+                                                        aria-label="Toggle navigation">
+                                                        <div class="col-6 col-md-6 d-flex">
+                                                            <p class="fw-bold">Women
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 d-flex justify-content-end">
+                                                            <p><i class="fa fa-chevron-down align-items-end"></i></p>
+                                                        </div>
+
+
+                                                    </button>
+                                                    <div class="navbar-collapse" id="filtermenuWomen">
+                                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-4 my-3">
+
+                                                            <li class="nav-item">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="flexCheckChecked">
+                                                                    <label class="form-check-label"
+                                                                        for="flexCheckChecked">
+                                                                        Shirt
+                                                                    </label>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="flexCheckChecked1">
+                                                                    <label class="form-check-label"
+                                                                        for="flexCheckChecked1">
+                                                                        Dresses
+                                                                    </label>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="flexCheckChecked2">
+                                                                    <label class="form-check-label"
+                                                                        for="flexCheckChecked2">
+                                                                        Shorts
+                                                                    </label>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="flexCheckChecked3">
+                                                                    <label class="form-check-label"
+                                                                        for="flexCheckChecked3">
+                                                                        Skirts
+                                                                    </label>
+                                                                </div>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="flexCheckChecked4">
+                                                                    <label class="form-check-label"
+                                                                        for="flexCheckChecked4">
+                                                                        Sports Clothing
+                                                                    </label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <!-- MenDropdown -->
+                                                <div class="col-md-12 p-3">
+                                                    <button class="col-md-12 col-12 d-flex navbar-toggler pt-2"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#filtermenuMen" aria-controls="filtermenuMen"
+                                                        aria-expanded="false" aria-label="Toggle navigation">
+                                                        <div class="col-6 col-md-6 d-flex">
+                                                            <p class="fw-bold">Men
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 d-flex justify-content-end">
+                                                            <p><i class="fa fa-chevron-down align-items-end"></i></p>
+                                                        </div>
+
+
+                                                    </button>
+                                                    <div class="navbar-collapse collapse" id="filtermenuMen">
+                                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-4 my-3">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="flexCheckChecked5">
+                                                                <label class="form-check-label" for="flexCheckChecked5">
+                                                                    Sports Clothing
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="flexCheckChecked6">
+                                                                <label class="form-check-label" for="flexCheckChecked6">
+                                                                    Sports Clothing
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value=""
+                                                                    id="flexCheckChecked7">
+                                                                <label class="form-check-label" for="flexCheckChecked7">
+                                                                    Sports Clothing
+                                                                </label>
+                                                            </div>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9 mx-0 mx-md-5">
+                            <div class="row g-2">
+                                <span class="pt-3">Showing <b>9</b> results from total <b>50</b> for
+                                    <b>“shirts”</b></span>
+
+                                <div class="d-flex">
+                                    <p class="">Applied Filters:
+                                        <button class="btn btn-light mx-2 shadow rounded-pill" type="button">Women <i
+                                                class="fa fa-close"></i></button>
+                                        <button class="btn btn-light mx-2 shadow rounded-pill" type="button">Shirts <i
+                                                class="fa fa-close"></i></button>
+                                </div>
+                                </p>
+                                <!-- Medium ekranlarda 3 sütunlu, small ekranlarda 2 sütunlu kartlar -->
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage.png" class="img-fluid" alt="">
+                                        <div class="card-body  p-2">
+                                            <h5 class="card-title text-start fw-bold">Blouse </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage1.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Oversized Shirt </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage2.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Cropped Sweater </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage3.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Camisole </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage6.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Sweater </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage4.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Cropped Camisole </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage5.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Shirt </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage7.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Hoodie </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="card product-card shadow-lg border-0">
+                                        <img src="img/Productimage8.png" class="img-fluid" alt="">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title text-start fw-bold">Cardigan </h5>
+                                            <p class="card-text">$ 10.00</p>
+                                            <div class="col-md-12 d-flex justify-content-start my-3">
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">S</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">M</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">L</button></div>
+                                                <div class="col-md-2"><button
+                                                        class="btn btn-outline-orange mx-0 mx-md-1">XL</button></div>
+                                            </div>
+                                            <div class="col-md-12 d-flex justify-content-between">
+                                                <div class="col-md-7"><a href="#" class="btn btn-orange text-white">Add
+                                                        to Cart</a>
+                                                </div>
+                                                <div class="col-md-5 d-flex justify-content-end">
+                                                    <a href="#"
+                                                        class="text-decoration-none btn btn-orange text-white rounded-circle "><i
+                                                            class="fa fa-regular fa-heart"></i></a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-12 border-bottom my-5">
+                    <div class="col-md-12 d-md-flex d-block flex-wrap justify-content-evenly align-items-center">
+                        <div class="col-md-4">
+                            <p class="mb-0 footer-text">Outfit</p>
+                            <div class="col-md-12">
+                                <p>Discover Your Distinctive Look:
+                                    Fashioned with Precision, Worn with Confidence</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-8 d-md-flex justify-content-end">
+                            <ul class="navbar-text list-unstyled d-md-flex">
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text">Home</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text">Features</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text">Pricing</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text">FAQs</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text">About</a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-md-end justify-content-start mb-3">
+                        <a href="#" class="btn btn-dark rounded-circle mx-2"><i class="fab fa-facebook "></i></a>
+                        <a href="#" class="btn btn-dark rounded-circle mx-2"><i class="fab fa-instagram "></i></a>
+                        <a href="#" class="btn btn-dark rounded-circle mx-2"><i class="fab fa-snapchat "></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 d-md-flex justify-content-between align-items-center mb-3">
+                    <p class="text-black">Privacy Policy</p>
+                    <p class="text-black">© 2023 Mugna Technologies, Inc.</p>
+                    <p class="text-black">Terms & Conditions</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
